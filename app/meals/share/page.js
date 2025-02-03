@@ -8,6 +8,7 @@ import { useActionState } from "react";
 
 const page = () => {
     
+// eslint-disable-next-line react-hooks/rules-of-hooks
 const [state,formAction] = useActionState(shareMeals,{message:null});
    
   return (
